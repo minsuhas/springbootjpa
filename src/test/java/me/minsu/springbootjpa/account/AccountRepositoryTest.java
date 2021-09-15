@@ -41,6 +41,8 @@ public class AccountRepositoryTest {
 
         Account nonExistingAccount = accountRepository.findByUsername("kim");
         assertThat(nonExistingAccount).isNotNull();
+
+
     }
 
 }
